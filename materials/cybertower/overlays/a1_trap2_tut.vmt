@@ -1,0 +1,5 @@
+"UnlitGeneric"
+{
+	"$basetexture" "cybertower/overlays/a1_trap2_tut"
+	"$nolod" 1
+}

@@ -1,0 +1,9 @@
+LightmappedGeneric
+{
+	$basetexture "cybertower/colordarkred"
+
+	$detail "detail/moon_panels02"
+	$detailscale 8.125
+
+	$nolod 1
+}

@@ -1,0 +1,5 @@
+"UnlitGeneric"
+{
+	"$basetexture" "cybertower/overlays/casualmode"
+	"$nolod" 1
+}

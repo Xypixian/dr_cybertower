@@ -1,0 +1,30 @@
+UnlitGeneric
+{
+	$basetexture "cybertower/overhaul/screenoverlays/compsubtitles"
+	$frame 3
+
+	$detail "cybertower/screenoverlays/glitch"
+	$detailblendmode 2
+
+	$translucent 1
+
+	$scavar "[2 8]"
+	$transvar "[0.0 -1.0]"
+
+	Proxies
+	{
+		AnimatedTexture
+		{
+			animatedtexturevar "$detail"
+			animatedtextureframenumvar "$detailframe"
+			animatedtextureframerate 8
+		}
+
+		TextureTransform
+		{
+			translateVar "$transvar"
+			scaleVar "$scavar"
+			resultVar "$basetexturetransform"
+		}
+	}
+}

@@ -1,0 +1,22 @@
+UnlitGeneric
+{
+	$basetexture "cybertower/screenoverlays/glitch"
+
+	$translucent 1
+	$decal 1
+
+	$basetexturetransform "center 0.5 0.5 scale 4 4 rotate 0 translate 0 0"
+
+	$nodecal 1
+	$nolod 1
+
+	Proxies
+	{
+		AnimatedTexture
+		{
+			animatedTextureVar "$basetexture"
+			animatedTextureFrameNumVar "$frame"
+			animatedTextureFrameRate 15
+		}
+	}
+}

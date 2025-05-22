@@ -1,0 +1,44 @@
+UnlitGeneric
+{
+	$basetexture "cybertower/overhaul/yellowwallpattern04"
+
+	$detail "cybertower/overhaul/yellowwallpattern04d"
+	$detailblendmode 5
+	$detailscale 1
+
+	$transvar "[0 0]"
+
+	Proxies
+	{
+		Sine
+		{
+			sineperiod 4
+			sinemin -0.1
+			sinemax 0.1
+			resultVar "$transvar[0]"
+		}
+
+		Sine
+		{
+			sineperiod 4
+			sinemin -0.1
+			sinemax 0.1
+			timeoffset 1
+			resultVar "$transvar[1]"
+		}
+
+		Sine
+		{
+			sineperiod 4
+			sinemin 0.8
+			sinemax 1.0
+			resultVar "$color"
+		}
+
+		TextureTransform
+		{
+			translateVar "$transvar"
+			resultVar "$detailtexturetransform"
+		}
+	}
+}

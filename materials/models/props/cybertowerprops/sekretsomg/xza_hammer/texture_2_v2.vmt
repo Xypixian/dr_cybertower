@@ -1,0 +1,4 @@
+"unlitgeneric"
+{	$model 1 	"$basetexture" "models/props/cybertowerprops/sekretsomg/xza_hammer/texture_2_v2"
+	"$nodecal" 1
+}

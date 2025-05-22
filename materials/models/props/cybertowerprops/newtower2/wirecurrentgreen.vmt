@@ -1,0 +1,18 @@
+unlitgeneric
+{
+	$model 1 	$basetexture "cybertower/towerskybox/wirecurrent"
+
+	$nolod 1
+
+	$color2 "[0 0.61 0]"
+
+	proxies
+	{
+		texturescroll
+		{
+			texturescrollvar "$basetexturetransform"
+			texturescrollrate 0.5
+			texturescrollangle 90
+		}
+	}
+}

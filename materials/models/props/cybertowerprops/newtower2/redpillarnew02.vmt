@@ -1,0 +1,16 @@
+unlitgeneric
+{
+	$model 1 	$basetexture "cybertower/overhaul/redpillarnew02"
+
+	$color2 "[0.79 0.79 0.79]"
+
+	proxies
+	{
+		texturescroll
+		{
+			texturescrollrate 0.5
+			texturescrollangle 90
+			texturescrollvar "$basetexturetransform"
+		}
+	}
+}

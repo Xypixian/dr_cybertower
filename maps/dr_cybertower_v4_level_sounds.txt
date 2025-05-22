@@ -1,0 +1,1024 @@
+"Cybertower.Precache"
+{
+	"rndwave"
+	{
+		"wave" 	"cybertowersfx/music/fakebustin.mp3"
+		"wave" 	"cybertowersfx/music/bossfailv2.mp3"
+		"wave" 	"cybertowersfx/music/defaultLosev2.mp3"
+		"wave" 	"cybertowersfx/music/defaultVictoryv3.mp3"
+		"wave" 	"cybertowersfx/music/finalflashescape.mp3"
+		"wave"	"cybertowersfx/new/computer/2minutesimpact.mp3"
+		"wave"	"cybertowersfx/new/computer/commencingiteration.mp3"
+		"wave"	"cybertowersfx/new/computer/iterationcomplete.mp3"
+		"wave"	"cybertowersfx/new/computer/3minutesimpact.mp3"
+		"wave"	"cybertowersfx/new/computer/20secondsimpact.mp3"
+		"wave"	"cybertowersfx/new/computer/30secondsimpact.mp3"
+		"wave"	"cybertowersfx/new/computer/60secondsimpact.mp3"
+		"wave"	"cybertowersfx/new/computer/connectionterminated.mp3"
+		"wave"	"cybertowersfx/new/computer/countfrom5.mp3"
+		"wave"	"cybertowersfx/new/computer/terminalvelocity.mp3"
+		"wave"	"cybertowersfx/new/computer/detachment.mp3"
+		"wave"	"cybertowersfx/reformats/teslaChargev2.mp3"
+		"wave"	"cybertowersfx/music/classSelectv2.mp3"
+		"wave"	"cybertowersfx/boop2.wav"
+		"wave"	"cybertowersfx/new/computer/countfrom10.mp3"
+		"wave"	"cybertowersfx/new/KAFUCKINGBOOMbefore.mp3"
+		"wave"	"cybertowersfx/new/KAFUCKINGBOOM.mp3"
+		"wave"	"cybertowersfx/jgopen.wav"
+		"wave"	"cybertowersfx/camera_move.mp3"
+		"wave"	"doors/door_metal_large_chamber_close1.wav"
+		"wave"	"ambient/energy/spark5.wav"
+		"wave"	"cybertowersfx/reformats/mmx6lasOnv2.mp3"
+		"wave"	"mvm/mvm_cpoint_klaxon.wav"
+		"wave"	"@mvm/mvm_cpoint_klaxon.wav"
+		"wave"	"weapons/barret_arm_zap.wav"
+		"wave"	"cybertowersfx/reformats/platboopv2.mp3"
+		"wave"  "mvm/melee_impacts/blade_hit_robo01.wav"
+		"wave"	"cybertowersfx/new/mech_start.wav"
+		"wave"	"cybertowersfx/new/mech_stop.wav"
+		"wave"	"cybertowersfx/new/teslaball_start.wav"
+		"wave"	"cybertowersfx/new/firebomb_explosion.wav"
+		"wave"	"cybertowersfx/new/chaingun_fire.mp3"
+		"wave"	"weapons/stickybomblauncher_shoot.wav"
+		"wave"	"cybertowersfx/new/minibossexplode.mp3"
+		"wave"	"cybertowersfx/new/beat.wav"
+		"wave"	"cybertowersfx/new/bosslaser1.mp3"
+		"wave"	"cybertowersfx/new/bossroar.mp3"
+		"wave"	"@cybertowersfx/new/bossverticalbeam.mp3"
+		"wave"	"cybertowersfx/new/bossverticalbeam.mp3"
+		"wave"	"@cybertowersfx/new/bossroar2.mp3"
+		"wave"	"cybertowersfx/new/bossroar2.mp3"
+		"wave"	"cybertowersfx/new/bossslam.mp3"
+		"wave"	"cybertowersfx/new/bossdeath.mp3"
+		"wave"	"cybertowersfx/new/bosshurt.mp3"
+		"wave"	"cybertowersfx/new/bossfirebeamcharge.mp3"
+		"wave"	"cybertowersfx/new/bossfirebeamfire.mp3"
+		"wave"	"cybertowersfx/new/bossflatlaser.mp3"
+		"wave"	"cybertowersfx/new/bossappear.mp3"
+		"wave"	"cybertowersfx/music/bossdefeatv1.mp3"
+		"wave"	"cybertowersfx/music/finalflashmb.mp3"
+		"wave"	"cybertowersfx/new/teslachargingloop.mp3"
+		"wave"	"cybertowersfx/new/crumblingfloor.mp3"
+		"wave"	"cybertowersfx/new/scaryasfuckshit.mp3"
+		"wave"	"cybertowersfx/new/monitorappear.mp3"
+		"wave"	"cybertowersfx/new/randomsfxistolefromfusionagain.mp3"
+		"wave"	"cybertowersfx/new/minibossdeath.mp3"
+		"wave"	"cybertowersfx/new/sexyglitchthing.mp3"
+		"wave"	"physics/cardboard/cardboard_box_impact_bullet2.wav"
+		"wave"	"items/powerup_pickup_base.wav"
+		"wave"	"ambient/explosions/exp1.wav"
+		"wave"	"ambient/explosions/exp2.wav"
+		"wave"	"ambient/explosions/exp3.wav"
+		"wave"	"ambient/explosions/exp4.wav"
+		"wave"	"cybertowersfx/reformats/massiveRumblev2.mp3"
+		"wave"	"misc/doomsday_missile_explosion.wav"
+		"wave"	"beams/beamstart5.wav"
+		"wave"	"misc/halloween/merasmus_spell.wav"
+		"wave"	"ambient/explosions/explode_2.wav"
+	}
+	"volume"		"0"
+	"soundlevel"		"SNDLVL_NONE"
+}
+
+"Game.YourTeamLost"
+{
+    "wave"        "misc/null.wav"
+}
+
+"Game.YourTeamWon"
+{
+    "wave"        "misc/null.wav"
+}
+
+"Game.Stalemate"
+{
+    "wave"        "misc/null.wav"
+}
+
+"Cybertower.DistantBoom"
+{
+	"rndwave"
+	{
+		"wave"	"ambient/explosions/exp1.wav"
+		"wave"	"ambient/explosions/exp2.wav"
+		"wave"	"ambient/explosions/exp3.wav"
+		"wave"	"ambient/explosions/exp4.wav"
+	}
+	"volume"		"1"
+	"soundlevel"		"SNDLVL_NONE"
+}
+
+"Cybertower.BigBoom"
+{
+	"wave"		"misc/doomsday_missile_explosion.wav"
+	"volume"		"1.0"
+	"soundlevel"		"SNDLVL_NONE"
+}
+
+"Cybertower.StockBoom"
+{
+	"wave"		"ambient/explosions/explode_2.wav"
+	"volume"		"1.0"
+	"soundlevel"		"SNDLVL_NONE"
+}
+
+"Cybertower.GenExplosion"
+{
+	"wave"		"misc/halloween/merasmus_spell.wav"
+	"volume"		"1.0"
+	"soundlevel"		"SNDLVL_NONE"
+}
+
+
+"Cybertower.SimuBeam"
+{
+	"wave"		"beams/beamstart5.wav"
+	"volume"		"0.7"
+	"soundlevel"		"SNDLVL_NONE"
+}
+
+"Cybertower.SexyGlitch"
+{
+	"wave"		"cybertowersfx/new/sexyglitchthing.mp3"
+	"volume"		"1.0"
+	"soundlevel"		"SNDLVL_NONE"
+}
+
+
+"Cybertower.SmallFBoom"
+{
+	"wave"		"cybertowersfx/new/randomsfxistolefromfusionagain.mp3"
+	"volume"		"1.0"
+	"soundlevel"		"SNDLVL_110DB"
+}
+
+"Cybertower.FinalFlashMB"
+{
+	"wave"		"#cybertowersfx/music/finalflashmb.mp3"
+	"volume"		"0.7"
+	"soundlevel"		"SNDLVL_NONE"
+}
+
+"Cybertower.FinalFlashEscape"
+{
+	"wave"		"cybertowersfx/music/finalflashescape.mp3"
+	"volume"		"1.0"
+	"soundlevel"		"SNDLVL_NONE"
+}
+
+"Cybertower.ScaryVoiceThing"
+{
+	"wave"		"cybertowersfx/new/scaryasfuckshit.mp3"
+	"volume"		"1"
+	"soundlevel"		"SNDLVL_NONE"
+}
+
+"Cybertower.MonitorAppear"
+{
+	"wave"		"cybertowersfx/new/monitorappear.mp3"
+	"volume"		"1"
+	"soundlevel"		"SNDLVL_80DB"
+}
+
+"Cybertower.FinalBossDefeat"
+{
+	"wave"		"#cybertowersfx/music/bossdefeatv1.mp3"
+	"volume"		"1"
+	"soundlevel"		"SNDLVL_NONE"
+}
+
+"Cybertower.VersusVault"
+{
+	"wave"		"physics/cardboard/cardboard_box_impact_bullet2.wav"
+	"volume"		"1.0"
+	"soundlevel"		"SNDLVL_90DB"
+}
+
+"Cybertower.FinalBossRingOn"
+{
+	"wave"		"items/powerup_pickup_base.wav"
+	"volume"		"1.0"
+	"soundlevel"		"SNDLVL_NONE"
+}
+
+"Cybertower.TeslaBallStart"
+{
+	"wave"		"cybertowersfx/new/teslaball_start.mp3"
+	"volume"		"1"
+	"soundlevel"		"SNDLVL_100DB"
+}
+
+"Cybertower.TeslaBallStart2"
+{
+	"wave"		"cybertowersfx/reformats/teslaChargev2.mp3"
+	"volume"		"1"
+	"soundlevel"		"SNDLVL_100DB"
+}
+
+"Cybertower.TeslaChargeLoop"
+{
+	"wave"		"cybertowersfx/new/teslachargingloop.mp3"
+	"volume"		"1"
+	"soundlevel"		"SNDLVL_100DB"
+}
+
+"Cybertower.CrumblingFloor"
+{
+	"wave"		"cybertowersfx/new/crumblingfloor.mp3"
+	"volume"		"0.9"
+	"soundlevel"		"SNDLVL_NONE"
+}
+
+"Cybertower.MassiveRumble"
+{
+	"wave"		"cybertowersfx/reformats/massiveRumblev2.mp3"
+	"volume"		"1.0"
+	"soundlevel"		"SNDLVL_NONE"
+}
+
+"Cybertower.BossAppear"
+{
+	"wave"		"cybertowersfx/new/bossappear.mp3"
+	"volume"		"1.0"
+	"soundlevel"		"SNDLVL_NONE"
+}
+
+"Cybertower.BossLaser1"
+{
+	"wave"		"cybertowersfx/new/bosslaser1.mp3"
+	"volume"		"1"
+	"soundlevel"		"SNDLVL_100DB"
+}
+
+"Cybertower.BossFireLaser1"
+{
+	"wave"		"cybertowersfx/new/bossfirebeamcharge.mp3"
+	"volume"		"1"
+	"soundlevel"		"SNDLVL_100DB"
+}
+
+"Cybertower.BossFireLaser2"
+{
+	"wave"		"cybertowersfx/new/bossfirebeamfire.mp3"
+	"volume"		"1"
+	"soundlevel"		"SNDLVL_100DB"
+}
+
+"Cybertower.BossFlatLaser"
+{
+	"wave"		"cybertowersfx/new/bossflatlaser.mp3"
+	"volume"		"1"
+	"soundlevel"		"SNDLVL_100DB"
+}
+
+"Cybertower.BossSlam"
+{
+	"wave"		"cybertowersfx/new/bossslam.mp3"
+	"volume"		"1"
+	"soundlevel"		"SNDLVL_110DB"
+}
+
+"Cybertower.BossHurt"
+{
+	"wave"		"cybertowersfx/new/bosshurt.mp3"
+	"volume"		"1"
+	"soundlevel"		"SNDLVL_110DB"
+}
+
+"Cybertower.SlamRoar"
+{
+	"wave"		"cybertowersfx/new/bossroar2.mp3"
+	"volume"		"1"
+	"soundlevel"		"SNDLVL_100DB"
+}
+
+"Cybertower.BossRoar"
+{
+	"wave"		"cybertowersfx/new/bossroar.mp3"
+	"volume"		"1"
+	"soundlevel"		"SNDLVL_NONE"
+}
+
+"Cybertower.BossDeath"
+{
+	"wave"		"cybertowersfx/new/bossdeath.mp3"
+	"volume"		"1"
+	"soundlevel"		"SNDLVL_NONE"
+}
+
+"Cybertower.BossRoarRage"
+{
+	"wave"		"cybertowersfx/new/bossroar.mp3"
+	"volume"		"1"
+	"pitch"			"90"
+	"soundlevel"		"SNDLVL_NONE"
+}
+
+"Cybertower.BossVertLaser"
+{
+	"wave"		"@cybertowersfx/new/bossverticalbeam.mp3"
+	"volume"		"1"
+	"soundlevel"		"SNDLVL_100DB"
+}
+
+"Cybertower.TensionBeat"
+{
+	"wave"		"cybertowersfx/new/beat.wav"
+	"volume"		"1"
+	"pitch"			"80"
+	"soundlevel"		"SNDLVL_NONE"
+}
+
+"Cybertower.Seriously"
+{
+	"wave"		"cybertowersfx/music/fakebustin.mp3"
+	"volume"		"1"
+	"soundlevel"		"SNDLVL_NONE"
+}
+
+"Cybertower.MechStart"
+{
+	"wave"		"cybertowersfx/new/mech_start.wav"
+	"volume"		"1"
+	"soundlevel"		"SNDLVL_100DB"
+}
+
+"Cybertower.MechStop"
+{
+	"wave"		"cybertowersfx/new/mech_stop.wav"
+	"volume"		"1"
+	"soundlevel"		"SNDLVL_100DB"
+}
+
+"Cybertower.TeslaBallStart"
+{
+	"wave"		"cybertowersfx/new/teslaball_start.wav"
+	"volume"		"1"
+	"soundlevel"		"SNDLVL_100DB"
+}
+
+"Cybertower.FirebombExplosion"
+{
+	"wave"		"cybertowersfx/new/firebomb_explosion.wav"
+	"volume"		"1"
+	"soundlevel"		"SNDLVL_100DB"
+}
+
+"Cybertower.MinibossDeath"
+{
+	"wave"		"cybertowersfx/new/minibossdeath.mp3"
+	"volume"		"1"
+	"soundlevel"		"SNDLVL_NONE"
+}
+
+"Cybertower.Chaingun"
+{
+	"wave"		"cybertowersfx/new/chaingun_fire.mp3"
+	"volume"		"1"
+	"soundlevel"		"SNDLVL_100DB"
+}
+
+"Cybertower.FirebombDrop"
+{
+	"wave"		"weapons/stickybomblauncher_shoot.wav"
+	"volume"		"1"
+	"pitch"			"85"
+	"soundlevel"		"SNDLVL_90DB"
+}
+
+"Cybertower.MinibossExplode"
+{
+	"wave"		"cybertowersfx/new/minibossexplode.mp3"
+	"volume"		"1"
+	"soundlevel"		"SNDLVL_NONE"
+}
+
+"Cybertower.Hardspinnerdoor"
+{
+	"wave"		"cybertowersfx/jgopen.wav"
+	"volume"		"1"
+	"soundlevel"		"SNDLVL_NONE"
+}
+
+"Cybertower.Barrett1"
+{
+	"wave"		"weapons/barret_arm_zap.wav"
+	"volume"		"1"
+	"soundlevel"		"SNDLVL_90DB"
+}
+
+"Cybertower.LaserOn"
+{
+	"wave"		"cybertowersfx/reformats/mmx6lasOnv2.mp3"
+	"volume"		"1"
+	"soundlevel"		"SNDLVL_90DB"
+}
+
+"Cybertower.CirclePulse"
+{
+	"rndwave"
+	{
+		"wave" 	"weapons/physcannon/energy_sing_flyby2.wav"
+		"wave" 	"weapons/physcannon/energy_sing_flyby1.wav"
+	}
+	"volume"		"1"
+	"soundlevel"		"SNDLVL_110DB"
+}
+
+"Cybertower.CrusherDown"
+{
+	"wave"		"ambient/machines/floodgate_stop1.wav"
+	"volume"		"1"
+	"soundlevel"		"SNDLVL_130DB"
+}
+
+"Cybertower.CrusherMove"
+{
+	"wave"		"ambient/machines/floodgate_move_short1.wav"
+	"volume"		"1"
+	"soundlevel"		"SNDLVL_90DB"
+}
+
+"Cybertower.PlatBoop"
+{
+	"wave"		"cybertowersfx/reformats/platboopv2.mp3"
+	"volume"		"1"
+	"soundlevel"		"SNDLVL_80DB"
+}
+
+"Cybertower.WarningType1"
+{
+	"wave"		"cybertowersfx/warningtype1v2.wav"
+	"volume"		"1"
+	"soundlevel"		"SNDLVL_90DB"
+}
+
+"Cybertower.WaterDrain"
+{
+	"wave"		"ambient/lair/perimeter_waterfall.wav"
+	"volume"		"1"
+	"soundlevel"		"SNDLVL_100DB"
+}
+
+"Cybertower.DefaultWin"
+{
+	"wave"		"#cybertowersfx/music/defaultVictoryv3.mp3"
+	"volume"		"1"
+	"soundlevel"		"SNDLVL_NONE"
+}
+
+"Cybertower.DefaultLose"
+{
+	"wave"		"#cybertowersfx/music/defaultLosev2.mp3"
+	"volume"		"1"
+	"soundlevel"		"SNDLVL_NONE"
+}
+
+"Cybertower.BossLose"
+{
+	"wave"		"#cybertowersfx/music/bossfailv2.mp3"
+	"volume"		"1"
+	"soundlevel"		"SNDLVL_NONE"
+}
+
+"Cybertower.ComputerDetachment"
+{
+	"wave"			"cybertowersfx/new/computer/detachment.mp3"
+	"volume"		"1"
+	"soundlevel"		"SNDLVL_NONE"
+}
+
+"Cybertower.ComputerTerminal"
+{
+	"wave"			"cybertowersfx/new/computer/terminalvelocity.mp3"
+	"volume"		"1"
+	"soundlevel"		"SNDLVL_NONE"
+}
+
+"Cybertower.Computer2MinutesImpact"
+{
+	"wave"			"cybertowersfx/new/computer/2minutesimpact.mp3"
+	"volume"		"1"
+	"soundlevel"		"SNDLVL_NONE"
+}
+
+"Cybertower.Computer3MinutesImpact"
+{
+	"wave"			"cybertowersfx/new/computer/3minutesimpact.mp3"
+	"volume"		"1"
+	"soundlevel"		"SNDLVL_NONE"
+}
+
+"Cybertower.ComputerConnectionTerminated"
+{
+	"wave"			"cybertowersfx/new/computer/connectionterminated.mp3"
+	"volume"		"1"
+	"soundlevel"		"SNDLVL_NONE"
+}
+
+"Cybertower.Computer10Countdown"
+{
+	"wave"			"cybertowersfx/new/computer/countfrom10.mp3"
+	"volume"		"1"
+	"soundlevel"		"SNDLVL_NONE"
+}
+
+"Cybertower.Computer5Countdown"
+{
+	"wave"			"cybertowersfx/new/computer/countfrom5.mp3"
+	"volume"		"1"
+	"soundlevel"		"SNDLVL_NONE"
+}
+
+"Cybertower.Computer20SecondsImpact"
+{
+	"wave"			"cybertowersfx/new/computer/20secondsimpact.mp3"
+	"volume"		"1"
+	"soundlevel"		"SNDLVL_NONE"
+}
+
+"Cybertower.Computer30SecondsImpact"
+{
+	"wave"			"cybertowersfx/new/computer/30secondsimpact.mp3"
+	"volume"		"1"
+	"soundlevel"		"SNDLVL_NONE"
+}
+
+"Cybertower.Computer60SecondsImpact"
+{
+	"wave"			"cybertowersfx/new/computer/60secondsimpact.mp3"
+	"volume"		"1"
+	"soundlevel"		"SNDLVL_NONE"
+}
+
+"Cybertower.IterationComplete"
+{
+	"wave"			"cybertowersfx/new/computer/iterationcomplete.mp3"
+	"volume"		"1"
+	"soundlevel"		"SNDLVL_NONE"
+}
+
+"Cybertower.KaboomPre"
+{
+	"wave"			"cybertowersfx/new/KAFUCKINGBOOMbefore.mp3"
+	"volume"		"1"
+	"soundlevel"		"SNDLVL_NONE"
+}
+
+"Cybertower.EndingExplosion"
+{
+	"wave"			"cybertowersfx/new/KAFUCKINGBOOM.mp3"
+	"volume"		"1"
+	"soundlevel"		"SNDLVL_NONE"
+}
+
+"Cybertower.CameraMove"
+{
+	"wave"			"cybertowersfx/camera_move.mp3"
+	"volume"		"1"
+	"soundlevel"		"SNDLVL_75DB"
+}
+
+"Cybertower.CameraMove2"
+{
+	"wave"			"cybertowersfx/camera_move.mp3"
+	"volume"		"1"
+	"soundlevel"		"SNDLVL_75DB"
+}
+
+"Cybertower.IntroPusher"
+{
+	"wave"			"doors/door_metal_large_chamber_close1.wav"
+	"volume"		"1"
+	"soundlevel"		"SNDLVL_75DB"
+}
+
+"Cybertower.LocalSpark"
+{
+	"wave"			"ambient/energy/spark5.wav"
+	"volume"		"1"
+	"soundlevel"		"SNDLVL_90DB"
+}
+
+"Cybertower.Klaxon"
+{
+	"wave"			"@mvm/mvm_cpoint_klaxon.wav"
+	"volume"		"0.8"
+	"soundlevel"		"SNDLVL_90DB"
+}
+
+"Announcer.AM_FirstBlood01"
+{
+	"wave"		"misc/null.wav"
+	"volume"		"0"
+	"soundlevel"		"SNDLVL_NONE"
+}
+
+"Announcer.AM_FirstBlood02"
+{
+	"wave"		"misc/null.wav"
+	"volume"		"0"
+	"soundlevel"		"SNDLVL_NONE"
+}
+
+"Announcer.AM_FirstBlood03"
+{
+	"wave"		"misc/null.wav"
+	"volume"		"0"
+	"soundlevel"		"SNDLVL_NONE"
+}
+
+"Announcer.AM_FirstBlood04"
+{
+	"wave"		"misc/null.wav"
+	"volume"		"0"
+	"soundlevel"		"SNDLVL_NONE"
+}
+
+"Announcer.AM_FirstBlood05"
+{
+	"wave"		"misc/null.wav"
+	"volume"		"0"
+	"soundlevel"		"SNDLVL_NONE"
+}
+
+"Announcer.AM_FirstBlood06"
+{
+	"wave"		"misc/null.wav"
+	"volume"		"0"
+	"soundlevel"		"SNDLVL_NONE"
+}
+
+"Announcer.AM_FirstBloodFinally"
+{
+	"wave"		"misc/null.wav"
+	"volume"		"0"
+	"soundlevel"		"SNDLVL_NONE"
+}
+
+"Announcer.AM_FirstBloodFast"
+{
+	"wave"		"misc/null.wav"
+	"volume"		"0"
+	"soundlevel"		"SNDLVL_NONE"
+}
+
+"Announcer.AM_FirstBloodRandom"
+{
+	"wave"		"misc/null.wav"
+	"volume"		"0"
+	"soundlevel"		"SNDLVL_NONE"
+}
+
+"Announcer.AM_FlawlessDefeat01"
+{
+	"wave"		"misc/null.wav"
+	"volume"		"0"
+	"soundlevel"		"SNDLVL_NONE"
+}
+
+"Announcer.AM_FlawlessDefeat02"
+{
+	"wave"		"misc/null.wav"
+	"volume"		"0"
+	"soundlevel"		"SNDLVL_NONE"
+}
+
+"Announcer.AM_FlawlessDefeat03"
+{
+	"wave"		"misc/null.wav"
+	"volume"		"0"
+	"soundlevel"		"SNDLVL_NONE"
+}
+
+"Announcer.AM_FlawlessDefeat04"
+{
+	"wave"		"misc/null.wav"
+	"volume"		"0"
+	"soundlevel"		"SNDLVL_NONE"
+}
+
+"Announcer.AM_FlawlessDefeatRandom"
+{
+	"wave"		"misc/null.wav"
+	"volume"		"0"
+	"soundlevel"		"SNDLVL_NONE"
+}
+
+"Announcer.AM_FlawlessVictory01"
+{
+	"wave"		"misc/null.wav"
+	"volume"		"0"
+	"soundlevel"		"SNDLVL_NONE"
+}
+
+"Announcer.AM_FlawlessVictory02"
+{
+	"wave"		"misc/null.wav"
+	"volume"		"0"
+	"soundlevel"		"SNDLVL_NONE"
+}
+
+"Announcer.AM_FlawlessVictory03"
+{
+	"wave"		"misc/null.wav"
+	"volume"		"0"
+	"soundlevel"		"SNDLVL_NONE"
+}
+
+"Announcer.AM_FlawlessVictoryRandom"
+{
+	"wave"		"misc/null.wav"
+	"volume"		"0"
+	"soundlevel"		"SNDLVL_NONE"
+}
+
+"Announcer.AM_GameStarting04"
+{
+	"wave"		"misc/null.wav"
+	"volume"		"0"
+	"soundlevel"		"SNDLVL_NONE"
+}
+
+"Announcer.AM_GameStarting05"
+{
+	"wave"		"misc/null.wav"
+	"volume"		"0"
+	"soundlevel"		"SNDLVL_NONE"
+}
+
+"Announcer.AM_LastManAlive01"
+{
+	"wave"		"misc/null.wav"
+	"volume"		"0"
+	"soundlevel"		"SNDLVL_NONE"
+}
+
+"Announcer.AM_LastManAlive02"
+{
+	"wave"		"misc/null.wav"
+	"volume"		"0"
+	"soundlevel"		"SNDLVL_NONE"
+}
+
+"Announcer.AM_LastManAlive03"
+{
+	"wave"		"misc/null.wav"
+	"volume"		"0"
+	"soundlevel"		"SNDLVL_NONE"
+}
+
+"Announcer.AM_LastManAlive04"
+{
+	"wave"		"misc/null.wav"
+	"volume"		"0"
+	"soundlevel"		"SNDLVL_NONE"
+}
+
+"Announcer.AM_RoundStart01"
+{
+	"wave"		"cybertowersfx/new/computer/commencingiteration.mp3"
+	"volume"		"1"
+	"soundlevel"		"SNDLVL_NONE"
+}
+
+"Announcer.AM_RoundStart02"
+{
+	"wave"		"cybertowersfx/new/computer/commencingiteration.mp3"
+	"volume"		"1"
+	"soundlevel"		"SNDLVL_NONE"
+}
+
+"Announcer.AM_RoundStart03"
+{
+	"wave"		"cybertowersfx/new/computer/commencingiteration.mp3"
+	"volume"		"1"
+	"soundlevel"		"SNDLVL_NONE"
+}
+
+"Announcer.AM_CapEnabled01"
+{
+	"wave"		"cybertowersfx/new/computer/commencingiteration.mp3"
+	"volume"		"1"
+	"soundlevel"		"SNDLVL_NONE"
+}
+
+"Announcer.AM_CapEnabled02"
+{
+	"wave"		"cybertowersfx/new/computer/commencingiteration.mp3"
+	"volume"		"1"
+	"soundlevel"		"SNDLVL_NONE"
+}
+
+"Announcer.AM_CapEnabled03"
+{
+	"wave"		"cybertowersfx/new/computer/commencingiteration.mp3"
+	"volume"		"1"
+	"soundlevel"		"SNDLVL_NONE"
+}
+
+"Announcer.AM_CapEnabled04"
+{
+	"wave"		"cybertowersfx/new/computer/commencingiteration.mp3"
+	"volume"		"1"
+	"soundlevel"		"SNDLVL_NONE"
+}
+
+"Announcer.AM_CapEnabledRandom"
+{
+	"wave"		"cybertowersfx/new/computer/commencingiteration.mp3"
+	"volume"		"1"
+	"soundlevel"		"SNDLVL_NONE"
+}
+
+"Announcer.AM_RoundStartRandom"
+{
+	"wave"		"cybertowersfx/new/computer/commencingiteration.mp3"
+	"volume"		"1"
+	"soundlevel"		"SNDLVL_NONE"
+}
+
+"Announcer.AM_RoundStart01"
+{
+	"wave"		"cybertowersfx/new/computer/commencingiteration.mp3"
+	"volume"		"1"
+	"soundlevel"		"SNDLVL_NONE"
+}
+
+"Announcer.RoundBegins10Seconds"
+{
+	"wave"		"misc/null.wav"
+	"volume"		"0"
+	"soundlevel"		"SNDLVL_NONE"
+}
+
+"Announcer.RoundBegins5Seconds"
+{
+	"wave"		"misc/null.wav"
+	"volume"		"0"
+	"soundlevel"		"SNDLVL_NONE"
+}
+
+"Announcer.RoundBegins4Seconds"
+{
+	"wave"		"misc/null.wav"
+	"volume"		"0"
+	"soundlevel"		"SNDLVL_NONE"
+}
+
+"Announcer.RoundBegins3Seconds"
+{
+	"wave"		"misc/null.wav"
+	"volume"		"0"
+	"soundlevel"		"SNDLVL_NONE"
+}
+
+"Announcer.RoundBegins2Seconds"
+{
+	"wave"		"misc/null.wav"
+	"volume"		"0"
+	"soundlevel"		"SNDLVL_NONE"
+}
+
+"Announcer.RoundBegins1Seconds"
+{
+	"wave"		"misc/null.wav"
+	"volume"		"0"
+	"soundlevel"		"SNDLVL_NONE"
+}
+
+"Ambient.Siren"
+{
+	"wave"		"misc/null.wav"
+	"volume"		"0"
+	"soundlevel"		"SNDLVL_NONE"
+}
+
+"Announcer.RoundEnds5Seconds"
+{
+	"wave"		"cybertowersfx/new/computer/countfrom5.mp3"
+	"volume"		"1"
+	"soundlevel"		"SNDLVL_NONE"
+}
+
+"Announcer.RoundEnds4Seconds"
+{
+	"wave"		"misc/null.wav"
+	"volume"		"0"
+	"soundlevel"		"SNDLVL_NONE"
+}
+
+"Announcer.RoundEnds3Seconds"
+{
+	"wave"		"misc/null.wav"
+	"volume"		"0"
+	"soundlevel"		"SNDLVL_NONE"
+}
+
+"Announcer.RoundEnds2Seconds"
+{
+	"wave"		"misc/null.wav"
+	"volume"		"0"
+	"soundlevel"		"SNDLVL_NONE"
+}
+
+"Announcer.RoundEnds1Seconds"
+{
+	"wave"		"misc/null.wav"
+	"volume"		"0"
+	"soundlevel"		"SNDLVL_NONE"
+}
+
+"Announcer.RoundEnds10Seconds"
+{
+	"wave"		"misc/null.wav"
+	"volume"		"0"
+	"soundlevel"		"SNDLVL_NONE"
+}
+
+"Player.AmbientUnderWater"
+{
+	"wave"		"misc/null.wav"
+	"volume"		"0"
+	"soundlevel"		"SNDLVL_NONE"
+}
+
+"music.class_menu_01"
+{
+	"channel"	"CHAN_STATIC"
+	"wave"		"cybertowersfx/boop2.wav"
+	"volume"	"1"
+	"pitch"		"80"
+}
+
+"music.class_menu_03"
+{
+	"channel"	"CHAN_STATIC"
+	"wave"		"cybertowersfx/boop2.wav"
+	"volume"	"1"
+	"pitch"		"85"
+}
+
+"music.class_menu_07"
+{
+	"channel"	"CHAN_STATIC"
+	"wave"		"cybertowersfx/boop2.wav"
+	"volume"	"1"
+	"pitch"		"90"
+}
+
+"music.class_menu_04"
+{
+	"channel"	"CHAN_STATIC"
+	"wave"		"cybertowersfx/boop2.wav"
+	"volume"	"1"
+	"pitch"		"95"
+}
+
+"music.class_menu_06"
+{
+	"channel"	"CHAN_STATIC"
+	"wave"		"cybertowersfx/boop2.wav"
+	"volume"	"1"
+	"pitch"		"100"
+}
+
+"music.class_menu_09"
+{
+	"channel"	"CHAN_STATIC"
+	"wave"		"cybertowersfx/boop2.wav"
+	"volume"	"1"
+	"pitch"		"105"
+}
+
+"music.class_menu_05"
+{
+	"channel"	"CHAN_STATIC"
+	"wave"		"cybertowersfx/boop2.wav"
+	"volume"	"1"
+	"pitch"		"110"
+}
+
+"music.class_menu_02"
+{
+	"channel"	"CHAN_STATIC"
+	"wave"		"cybertowersfx/boop2.wav"
+	"volume"	"1"
+	"pitch"		"115"
+}
+
+"music.class_menu_08"
+{
+	"channel"	"CHAN_STATIC"
+	"wave"		"cybertowersfx/boop2.wav"
+	"volume"	"1"
+	"pitch"		"120"
+}
+
+"music.class_menu"
+{
+	"channel"	"CHAN_STATIC"
+	"wave"		"#cybertowersfx/music/classSelectv2.mp3"
+	"volume"	"1"
+}
+

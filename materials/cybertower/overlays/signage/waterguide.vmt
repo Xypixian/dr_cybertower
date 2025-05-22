@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture" "cybertower/overlays/signage/waterGuide"
+	"$nolod" 1
+	"$nodecal" "1"
+}

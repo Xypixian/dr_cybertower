@@ -1,0 +1,15 @@
+"UnlitGeneric"
+{
+	"$basetexture" "cybertower/finalbosswall2"
+	"$nodecal" 1
+	"$nolod" 1
+	"Proxies"
+		{
+			"TextureScroll"
+			{
+				"texturescrollvar" "$basetexturetransform"
+				"texturescrollrate" 1.0
+				"texturescrollangle" 0
+			}
+		}
+}

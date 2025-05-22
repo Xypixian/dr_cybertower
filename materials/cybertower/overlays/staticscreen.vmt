@@ -1,0 +1,16 @@
+"UnlitGeneric"
+{
+	"$basetexture" "cybertower/overlays/staticscreen"
+	"$nodecal" 1
+	"$nolod" 1
+	"$translucent" 1
+	"Proxies"
+	{
+	"AnimatedTexture"
+		{
+		"animatedTextureVar" "$basetexture"
+		"animatedTextureFrameNumVar" "$frame"
+		"animatedTextureFrameRate" "15"
+		}
+	}
+}

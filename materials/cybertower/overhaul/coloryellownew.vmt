@@ -1,0 +1,15 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "cybertower/colorYellow"
+	$detail "detail/moon_panels02"
+	$detailscale 8.125
+
+	$nolod 1
+
+	$color "0.6"
+	$envmap "cubemaps/cubemap_sheen002"
+	$envmaptint "[0.1 0.1 0.1]"
+	$envmapcontrast 0.5
+	$envmapmask "detail/moon_panels02"
+	$fresnelreflection "0.01"
+}

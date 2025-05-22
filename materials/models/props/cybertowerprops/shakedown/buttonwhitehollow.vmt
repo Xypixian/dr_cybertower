@@ -1,0 +1,6 @@
+"unlitgeneric"
+{
+	$model 1 	"$basetexture" "cybertower/buttonwhitehollow"
+	"$alphatest" 1
+	"$nolod" 1
+}

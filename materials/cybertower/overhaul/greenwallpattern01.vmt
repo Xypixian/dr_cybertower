@@ -1,0 +1,74 @@
+UnlitGeneric
+{
+	$basetexture "cybertower/overhaul/greenwallpattern01"
+
+	$basetexturetransform "center 0.5 0.5 scale 1 1 rotate 45 translate 0 0"
+
+	$color "[0.79 0.79 0.79]"
+
+	$centvar "[0.5 0.5]"
+	$clampVar1 0
+	$clampVar2 0
+	$rampVar 0
+	$rotvar 45
+	$scavar 0
+	$transvar "[0.0 0.0]"
+
+	Proxies
+	{
+		Sine
+		{
+			sineperiod 6
+			sinemin 0.5
+			sinemax 1
+			resultVar "$clampVar1"
+		}
+
+		Sine
+		{
+			sineperiod 6
+			sinemin -0.5
+			sinemax -1
+			resultVar "$clampVar2"
+		}
+
+		LinearRamp
+		{
+			initialValue 0.0
+			rate 0.1
+			resultVar "$rampVar"
+		}
+
+		WrapMinMax
+		{
+			srcVar1 "$rampVar"
+			minVal 0.6
+			maxVal 1
+			resultVar "$color"
+		}
+
+		Clamp
+		{
+			min 0.51
+			max 0.99
+			srcVar1 "$clampVar1"
+			resultVar "$transVar[0]"
+		}
+
+		Clamp
+		{
+			max -0.51
+			min -0.99
+			srcVar1 "$clampVar2"
+			resultVar "$transVar[1]"
+		}
+
+		TextureTransform
+		{
+			centerVar "$centVar"
+			rotateVar "$rotVar"
+			translateVar "$transVar"
+			resultVar "$basetexturetransform"
+		}
+	}
+}

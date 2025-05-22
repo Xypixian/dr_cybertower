@@ -1,0 +1,45 @@
+UnlitGeneric
+{
+	$basetexture "cybertower/overhaul/greenwallpattern04"
+
+	$absolutevar 0
+	$transvar "[0 0]"
+
+	Proxies
+	{
+		LinearRamp
+		{
+			initialValue 0
+			rate -0.3
+			resultVar "$transvar[0]"
+		}
+
+		Sine
+		{
+			sineperiod 5
+			sinemin -0.33
+			sinemax 0.33
+			resultVar "$absolutevar"
+		}
+
+		Sine
+		{
+			sineperiod 4
+			sinemin 0.8
+			sinemax 1.1
+			resultVar "$color"
+		}
+
+		Abs
+		{
+			srcVar1 "$absolutevar"
+			resultVar "$transvar[1]"
+		}
+
+		TextureTransform
+		{
+			translateVar "$transvar"
+			resultVar "$basetexturetransform"
+		}
+	}
+}

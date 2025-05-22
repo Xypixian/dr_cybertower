@@ -1,0 +1,18 @@
+UnlitGeneric
+{
+	$basetexture "cybertower/textureredcrosslaser"
+
+	$nolod 1
+
+	$color "[0.79 0.79 0.79]"
+
+	Proxies
+	{
+		AnimatedTexture
+		{
+			animatedTextureVar "$basetexture"
+			animatedTextureFrameNumVar "$frame"
+			animatedTextureFrameRate 4
+		}
+	}
+}

@@ -1,0 +1,9 @@
+"vertexlitgeneric"
+{
+	"$basetexture" "cybertower/sekretsomg/wing"
+	"$nodecal" 1
+	"$nolod" 1
+	"$alphatest" 1
+	"$allowalphatocoverage" 1
+	$halflambert 1
+}

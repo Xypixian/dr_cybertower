@@ -1,0 +1,15 @@
+"UnlitGeneric"
+{
+	"$basetexture" "cybertower/textureRedCross"
+	"$nolod" 1
+	"$decal" 1
+	"Proxies"
+	{
+		"AnimatedTexture"
+			{
+			"animatedTextureVar" "$basetexture"
+			"animatedTextureFrameNumVar" "$frame"
+			"animatedTextureFrameRate" "4"
+			}
+	}
+}

@@ -1,0 +1,85 @@
+UnlitTwoTexture
+{
+	$basetexture "models/props/cybertowerprops/simucube/therealcube"
+	$texture2 "cybertower/screenoverlays/glitch"
+
+	$additive 1
+
+	$basetexturetransform "center 0.5 0.5 scale 1 1 rotate 0 translate 1.38778e-17 0"
+
+	$nodecal 1
+	$ignorez 1
+
+	$noisevar 0
+	$sca2var 16
+	$sinevar 0
+	$texture2transform "center .5 .5 scale 8 8 rotate 0 translate 0 0"
+	$trans2var "[0 0]"
+	$transvar "[0 0]"
+
+	Proxies
+	{
+		AnimatedTexture
+		{
+			animatedtexturevar "$texture2"
+			animatedtextureframenumvar "$frame2"
+			animatedtextureframerate 12
+		}
+
+		LinearRamp
+		{
+			initialValue 0
+			rate 0.1
+			resultVar "$trans2var[1]"
+		}
+
+		UniformNoise
+		{
+			minVal -0.001
+			maxVal 0.001
+			resultVar "$transvar[0]"
+		}
+
+		UniformNoise
+		{
+			minVal -0.001
+			maxVal 0.001
+			resultVar "$transvar[1]"
+		}
+
+		TextureTransform
+		{
+			translateVar "$transvar"
+			resultVar "$basetexturetransform"
+		}
+
+		TextureTransform
+		{
+			translateVar "$trans2var"
+			scaleVar "$sca2var"
+			resultVar "$texture2transform"
+		}
+
+		UniformNoise
+		{
+			minVal 0.35
+			maxVal 0.75
+			resultVar "$noisevar"
+		}
+
+		Sine
+		{
+			sineperiod 0.4
+			sinemin 0.42
+			sinemax 0.6
+			resultVar "$sinevar"
+		}
+
+		Multiply
+		{
+			srcVar1 "$noisevar"
+			srcVar2 "$sinevar"
+			resultVar "$color2"
+		}
+	}
+}

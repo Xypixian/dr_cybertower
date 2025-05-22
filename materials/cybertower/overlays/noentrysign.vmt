@@ -1,0 +1,7 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "cybertower/overlays/noentrysign"
+	"$nolod" 1
+	"$decal" "1"
+	"$nodecal" 1
+}

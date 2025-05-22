@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture" "cybertower/buttonWhiteHollow"
+	"$alphatest" 1
+	"$nolod" 1
+}

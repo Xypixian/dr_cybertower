@@ -1,0 +1,24 @@
+UnlitGeneric
+{
+	$basetexture "cybertower/gengreen"
+
+	$nolod 1
+
+	Proxies
+	{
+		AnimatedTexture
+		{
+			animatedTextureVar "$basetexture"
+			animatedTextureFrameNumVar "$frame"
+			animatedTextureFrameRate 6
+		}
+
+		Sine
+		{
+			sineperiod 2
+			sinemin 0.7
+			sinemax 0.8
+			resultVar "$color2"
+		}
+	}
+}

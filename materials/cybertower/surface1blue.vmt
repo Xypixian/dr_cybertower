@@ -1,0 +1,14 @@
+"UnlitGeneric"
+{
+	"$basetexture" "cybertower/surface1Blue"
+	"$nolod" 1
+	"Proxies"
+		{
+		"AnimatedTexture"
+			{
+			"animatedTextureVar" "$basetexture"
+			"animatedTextureFrameNumVar" "$frame"
+			"animatedTextureFrameRate" "4"
+			}
+		}
+}

@@ -1,0 +1,15 @@
+"UnlitGeneric"
+{
+	"$basetexture" "cybertower/program/programeye1"
+	"$nodecal" 1
+	"$nolod" 1
+	"Proxies"
+	{
+	"AnimatedTexture"
+		{
+		"animatedTextureVar" "$basetexture"
+		"animatedTextureFrameNumVar" "$frame"
+		"animatedTextureFrameRate" "10"
+		}
+	}
+}

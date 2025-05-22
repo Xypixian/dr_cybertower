@@ -1,0 +1,7 @@
+"UnlitGeneric"
+{
+	"$basetexture" "cybertower/overlays/dannydamage"
+	"$translucent" 1
+	"$decal" 1
+	"$nolod" 1
+}

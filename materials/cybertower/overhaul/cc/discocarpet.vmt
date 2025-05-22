@@ -1,0 +1,8 @@
+// Carpet 006 on ambientCG
+
+LightmappedGeneric
+{
+	$basetexture "cybertower/overhaul/cc/discocarpet"
+	$bumpmap "cybertower/overhaul/cc/discocarpetN"
+	$surfaceprop Carpet
+}

@@ -1,0 +1,15 @@
+"UnlitGeneric"
+{
+	"$basetexture" "cybertower/particles/elecParticle1"
+	"$nolod" 1
+	"$alphatest" 1
+	"Proxies"
+	{
+		"AnimatedTexture"
+			{
+			"animatedTextureVar" "$basetexture"
+			"animatedTextureFrameNumVar" "$frame"
+			"animatedTextureFrameRate" "8"
+			}
+	}
+}

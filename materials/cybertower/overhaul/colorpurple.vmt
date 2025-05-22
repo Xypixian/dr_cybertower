@@ -1,0 +1,15 @@
+UnlitGeneric
+{
+	$basetexture "cybertower/overhaul/colorpurple"
+
+	Proxies
+	{
+		Sine
+		{
+			sineperiod 2
+			sinemin 0.5
+			sinemax 0.80
+			resultVar "$color"
+		}
+	}
+}

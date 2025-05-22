@@ -1,0 +1,18 @@
+unlitgeneric
+{
+	$model 1 	$basetexture "cybertower/textureredcross"
+
+	$nolod 1
+
+	$color2 "[0.79 0.79 0.79]"
+
+	proxies
+	{
+		animatedtexture
+		{
+			animatedtexturevar "$basetexture"
+			animatedtextureframenumvar "$frame"
+			animatedtextureframerate 4
+		}
+	}
+}

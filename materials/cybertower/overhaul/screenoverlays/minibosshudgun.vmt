@@ -1,0 +1,11 @@
+UnlitGeneric
+{
+	$basetexture "cybertower/overhaul/screenoverlays/minibosshud"
+	$frame 1
+
+	$translucent 1
+
+	$basetexturetransform "center 0.5 0.85 scale 3 3 rotate 0 translate 0 0"
+
+	$allowalphatocoverage 1
+}

@@ -1,0 +1,15 @@
+UnlitGeneric
+{
+	$basetexture "cybertower/flashingred"
+
+	Proxies
+	{
+		Sine
+		{
+			sineperiod 0.5
+			sinemin 0.1
+			sinemax 0.6
+			resultVar "$color2"
+		}
+	}
+}

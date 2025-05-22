@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture" "cybertower/overlays/givemesomeprivacy"
+	"$nolod" 1
+	"$nodecal" 1
+}

@@ -1,0 +1,23 @@
+UnlitGeneric
+{
+	$basetexture "cybertower/overhaul/signage/difficulty"
+
+	$additive 1
+
+	$basetexturetransform "center 0.475 0.6 scale 0.6 0.6 rotate 0 translate 0 0"
+
+	$nodecal 1
+
+	$color2 "[1 0 0]"
+
+	Proxies
+	{
+		Sine
+		{
+			sineperiod 0.75
+			sinemin 0.5
+			sinemax 1.0
+			resultVar "$color2[0]"
+		}
+	}
+}

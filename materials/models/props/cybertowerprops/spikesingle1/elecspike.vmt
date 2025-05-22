@@ -1,0 +1,15 @@
+"unlitgeneric"
+{
+	$model 1 
+	$color "[0.79 0.79 0.79]"	"$basetexture" "cybertower/elecspike"
+	"$nolod" 1
+	"proxies"
+		{
+			"animatedtexture"
+				{
+				"animatedtexturevar" "$basetexture"
+				"animatedtextureframenumvar" "$frame"
+				"animatedtextureframerate" "8"
+				}
+		}
+}

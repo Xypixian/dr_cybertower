@@ -1,0 +1,15 @@
+UnlitGeneric
+{
+	$basetexture "cybertower/colorpurewhite"
+
+	Proxies
+	{
+		Sine
+		{
+			sineperiod 1
+			sinemin 0.65
+			sinemax 0.75
+			resultVar "$color"
+		}
+	}
+}

@@ -1,0 +1,33 @@
+UnlitTwoTexture
+{
+	$basetexture "cybertower/colorPureWhite"
+	$texture2 "cybertower/overhaul/greenWallPattern03"
+
+	$rotvar 0
+	$scavar 0
+
+	Proxies
+	{
+		Sine
+		{
+			sineperiod 6
+			sinemin 0.93
+			sinemax 1
+			resultVar "$scavar"
+		}
+
+		LinearRamp
+		{
+			rate 2
+			initialValue 0
+			resultVar "$rotvar"
+		}
+
+		TextureTransform
+		{
+			rotateVar "$rotvar"
+			scaleVar "$scavar"
+			resultVar "$texture2transform"
+		}
+	}
+}

@@ -1,0 +1,25 @@
+UnlitGeneric
+{
+	$basetexture "cybertower/overhaul/quaddeathwarning"
+
+	$nodecal 1
+
+	$sinewarn2var 1
+
+	Proxies
+	{
+		Sine
+		{
+			sineperiod 1
+			sinemin 0.5
+			sinemax 1.5
+			resultVar "$sinewarn2var"
+		}
+
+		Int
+		{
+			srcVar1 "$sinewarn2var"
+			resultVar "$color"
+		}
+	}
+}

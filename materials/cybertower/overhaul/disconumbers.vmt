@@ -1,0 +1,23 @@
+UnlitGeneric
+{
+	$basetexture "cybertower/overhaul/disconumbers"
+
+	$nodecal 1
+
+	Proxies
+	{
+		Sine
+		{
+			sineperiod 1
+			sinemin 0.90
+			sinemax 1.0
+			resultVar "$color2"
+		}
+
+		ToggleTexture
+		{
+			toggleTextureFrameNumVar "$frame"
+			toggleTextureVar "$basetexture"
+		}
+	}
+}

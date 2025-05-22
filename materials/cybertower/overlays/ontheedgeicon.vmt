@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture" "cybertower/overlays/ontheedgeicon"
+	"$nodecal" 1
+	"$nolod" 1
+}

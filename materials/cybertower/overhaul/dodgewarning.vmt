@@ -1,0 +1,25 @@
+UnlitGeneric
+{
+	$basetexture "cybertower/overhaul/disconumbers"
+
+	$nodecal 1
+
+	$sinewarnvar 0
+
+	Proxies
+	{
+		Sine
+		{
+			sineperiod 0.35
+			sinemin 0.5
+			sinemax 1.5
+			resultVar "$sinewarnvar"
+		}
+
+		Int
+		{
+			srcVar1 "$sinewarnvar"
+			resultVar "$color"
+		}
+	}
+}

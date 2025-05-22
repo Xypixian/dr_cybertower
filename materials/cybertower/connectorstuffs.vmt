@@ -1,0 +1,16 @@
+"UnlitGeneric"
+{
+	"$basetexture" "cybertower/connectorStuffs"
+	"$nolod" 1
+	"$nodecal" 1
+	"$translucent" 1
+	"Proxies"
+		{
+			"TextureScroll"
+			{
+				"texturescrollvar" "$basetexturetransform"
+				"texturescrollrate" 0.8
+				"texturescrollangle" 90
+			}
+		}
+}

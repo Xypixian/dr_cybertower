@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture" "cybertower/colorPureWhite"
+	"$nolod" 1
+	"$color2" "{200 200 200}"
+}

@@ -1,0 +1,34 @@
+UnlitGeneric
+{
+	$basetexture "cybertower/overhaul/feetbuttonred"
+
+	$nodecal 1
+
+	$dividevar 4
+	$intvar 0
+	$sinevar 0
+
+	Proxies
+	{
+		Sine
+		{
+			sineperiod 0.5
+			sinemin 3.5
+			sinemax 4.5
+			resultVar "$sinevar"
+		}
+
+		Int
+		{
+			srcVar1 "$sinevar"
+			resultVar "$intvar"
+		}
+
+		Divide
+		{
+			srcVar1 "$intvar"
+			srcVar2 "$dividevar"
+			resultVar "$color2"
+		}
+	}
+}

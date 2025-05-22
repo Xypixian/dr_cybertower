@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture" "cybertower/overlays/signage/simuReference"
+	"$nolod" 1
+	"$nodecal" "1"
+}

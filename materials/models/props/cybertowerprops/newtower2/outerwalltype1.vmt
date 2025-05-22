@@ -1,0 +1,20 @@
+unlitgeneric
+{
+	$model 1 	$basetexture "cybertower/overhaul/outerwalltype1"
+
+	$detail "cybertower/connectorstuffs"
+	$detailblendmode 4
+	$detailscale 2
+
+	$color2 "[0.80 0.80 0.80]"
+
+	proxies
+	{
+		texturescroll
+		{
+			texturescrollvar "$detailtexturetransform"
+			texturescrollrate 0.2
+			texturescrollangle 90
+		}
+	}
+}

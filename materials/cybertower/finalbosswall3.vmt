@@ -1,0 +1,15 @@
+"UnlitGeneric"
+{
+	"$basetexture" "cybertower/wallType1White"
+	"$nolod" 1
+	"$color2" "{255 0 0}"
+	    "Proxies"
+		{
+			"TextureScroll"
+			{
+				"texturescrollvar" "$basetexturetransform"
+				"texturescrollrate" 0.5
+				"texturescrollangle" 0
+			}
+		}
+}

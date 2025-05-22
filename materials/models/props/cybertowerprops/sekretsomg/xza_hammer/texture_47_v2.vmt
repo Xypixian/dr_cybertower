@@ -1,0 +1,18 @@
+"unlitgeneric"
+{
+	$model 1 	"$basetexture" "models/props/cybertowerprops/sekretsomg/xza_hammer/texture_47_v2"
+	"$nodecal" 1
+	"$translucent" 1
+                  "$offset" 0
+
+	proxies
+	{
+		sine
+		{
+		         resultvar	$alpha
+		         sineperiod	5
+		         sinemin	0
+		         sinemax	1
+		}
+	}
+}

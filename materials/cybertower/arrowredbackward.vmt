@@ -1,0 +1,9 @@
+UnlitGeneric
+{
+	$basetexture "cybertower/arrowredbackward"
+
+	$additive 1
+	$decal 1
+
+	$nolod 1
+}

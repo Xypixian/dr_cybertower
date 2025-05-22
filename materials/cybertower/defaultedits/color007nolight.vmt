@@ -1,0 +1,5 @@
+"UnlitGeneric"
+{
+	"$basetexture" "test/color007"
+	"$nolod" 1
+}

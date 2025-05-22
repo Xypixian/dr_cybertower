@@ -1,0 +1,11 @@
+UnlitGeneric
+{
+	$basetexture "cybertower/glassred"
+
+	$translucent 1
+
+	$nodecal 1
+	$nolod 1
+
+	$color "[0 0.54 0]"
+}

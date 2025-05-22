@@ -1,0 +1,15 @@
+UnlitGeneric
+{
+	$basetexture "models/props/cybertowerprops/newprogram/hornmat"
+
+	Proxies
+	{
+		Sine
+		{
+			sineperiod 1
+			sinemin 0.8
+			sinemax 1.2
+			resultVar "$color2"
+		}
+	}
+}

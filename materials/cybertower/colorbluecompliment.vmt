@@ -1,0 +1,5 @@
+"UnlitGeneric"
+{
+	"$basetexture" "cybertower/colorBlueCompliment"
+	"$nolod" 1
+}

@@ -1,0 +1,9 @@
+UnlitGeneric
+{
+	$basetexture "cybertower/colordarkredlaser"
+
+	$detail "detail/moon_panels02"
+	$detailscale 2
+
+	$nolod 1
+}

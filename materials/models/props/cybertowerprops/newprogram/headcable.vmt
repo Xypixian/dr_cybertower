@@ -1,0 +1,28 @@
+UnlitGeneric
+{
+	$basetexture "cybertower/towerskybox/wirecurrent"
+
+	$color2 "[1 0.50 0.51]"
+
+	$rotvar 90
+	$scavar 0.5
+	$transvar "[0 0]"
+
+	Proxies
+	{
+		LinearRamp
+		{
+			initialValue 0
+			rate 2.0
+			resultVar "$transvar[1]"
+		}
+
+		TextureTransform
+		{
+			rotateVar "$rotvar"
+			translateVar "$transvar"
+			scaleVar "$scavar"
+			resultVar "$basetexturetransform"
+		}
+	}
+}

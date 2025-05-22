@@ -1,0 +1,7 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/props/cybertowerprops/sekretsomg/trio/t01_body01"
+	$halflambert 1
+	"$bumpmap" "dev/flat_normal"
+	"$lightwarptexture" "models/player/pyro/pyro_lightwarp.vtf"
+}

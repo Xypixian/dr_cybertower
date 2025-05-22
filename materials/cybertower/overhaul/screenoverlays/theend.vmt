@@ -1,0 +1,8 @@
+UnlitGeneric
+{
+	$basetexture "cybertower/overhaul/screenoverlays/newending"
+
+	$alphatest 1
+
+	$basetexturetransform "center 0.5 0.5 scale 2 2 rotate 0 translate 0 0"
+}

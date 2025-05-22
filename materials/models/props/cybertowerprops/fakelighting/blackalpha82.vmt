@@ -1,0 +1,7 @@
+unlitgeneric
+{ 
+	$model 1 	$basetexture "cybertower/overhaul/fakealpha82"
+	$translucent 1
+
+	%compilenolight 1
+}

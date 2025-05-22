@@ -1,0 +1,7 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/props/cybertowerprops/sekretsomg/trio/collabo_headphone"
+	$halflambert 1
+	"$bumpmap" "dev/flat_normal"
+	"$lightwarptexture" "models/player/pyro/pyro_lightwarp.vtf"
+}

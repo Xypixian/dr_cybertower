@@ -1,0 +1,7 @@
+"UnlitGeneric"
+{
+	"$basetexture" "cybertower/overlays/selecttrackhere"
+	"$nodecal" 1
+	"$nolod" 1
+	"$decal" "1"
+}

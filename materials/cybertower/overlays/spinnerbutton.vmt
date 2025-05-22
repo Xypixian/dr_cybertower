@@ -1,0 +1,5 @@
+"UnlitGeneric"
+{
+	"$basetexture" "cybertower/overlays/spinnerbutton"
+	"$nolod" 1
+}

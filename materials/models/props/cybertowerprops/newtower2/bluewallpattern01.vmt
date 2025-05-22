@@ -1,0 +1,32 @@
+unlitgeneric
+{
+	$model 1 	$basetexture "cybertower/overhaul/bluewallpattern01"
+
+	$rotvar 45
+	$transformvar "[0 0]"
+
+	proxies
+	{
+		texturescroll
+		{
+			texturescrollrate 0.2
+			texturescrollangle -90
+			texturescrollvar "$transformvar"
+		}
+
+		texturetransform
+		{
+			translatevar "$transformvar"
+			rotatevar "$rotvar"
+			resultvar "$basetexturetransform"
+		}
+
+		sine
+		{
+			sineperiod 4
+			sinemin 0.5
+			sinemax 0.8
+			resultvar "$color2"
+		}
+	}
+}

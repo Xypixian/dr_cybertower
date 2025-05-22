@@ -1,0 +1,24 @@
+UnlitGeneric
+{
+	$basetexture "cybertower/laserRed"
+
+	$nolod 1
+
+	Proxies
+	{
+		TextureScroll
+		{
+			texturescrollvar "$basetexturetransform"
+			texturescrollrate 1
+			texturescrollangle 0
+		}
+
+		Sine
+		{
+			sinemin 0.9
+			sinemax 0.95
+			resultVar "$color"
+			sineperiod 4
+		}
+	}
+}

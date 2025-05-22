@@ -1,0 +1,49 @@
+UnlitGeneric
+{
+	$basetexture "cybertower/overhaul/screenoverlays/subjectsexceed"
+
+	$detail "cybertower/screenoverlays/glitch"
+	$detailblendmode 2
+
+	$translucent 1
+
+	$color2 "[0.98 0.56 0.56]"
+
+	$scavar 3
+	$transvar "[0.0 -0.50]"
+
+	Proxies
+	{
+		GaussianNoise
+		{
+			mean 0.0
+			halfWidth 0.005
+			min -0.001
+			max 0.001
+			resultVar "$transvar[0]"
+		}
+
+		GaussianNoise
+		{
+			mean -0.50
+			halfWidth 0.005
+			min -0.051
+			max 0.049
+			resultVar "$transvar[1]"
+		}
+
+		AnimatedTexture
+		{
+			animatedtexturevar "$detail"
+			animatedtextureframenumvar "$detailframe"
+			animatedtextureframerate 8
+		}
+
+		TextureTransform
+		{
+			translateVar "$transvar"
+			scaleVar "$scavar"
+			resultVar "$basetexturetransform"
+		}
+	}
+}

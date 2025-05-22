@@ -1,0 +1,14 @@
+UnlitGeneric
+{
+	$basetexture "cybertower/overhaul/minibosspattern2"
+
+	Proxies
+	{
+		TextureScroll
+		{
+			textureScrollRate 0.6
+			textureScrollAngle 180
+			textureScrollVar "$basetexturetransform"
+		}
+	}
+}

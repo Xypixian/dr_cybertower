@@ -1,0 +1,18 @@
+UnlitGeneric
+{
+	$basetexture "cybertower/pillaryellowtype1"
+
+	$nolod 1
+
+	$color "[0.81 0.68 0.50]"
+
+	Proxies
+	{
+		TextureScroll
+		{
+			texturescrollvar "$basetexturetransform"
+			texturescrollrate 0.5
+			texturescrollangle 90
+		}
+	}
+}

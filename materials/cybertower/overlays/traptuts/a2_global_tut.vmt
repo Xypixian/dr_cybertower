@@ -1,0 +1,15 @@
+"UnlitGeneric"
+{
+	"$basetexture" "cybertower/overlays/trapTuts/a2_global_tut"
+	"$nolod" 1
+	"$nodecal" 1
+	"Proxies"
+	{
+		"AnimatedTexture"
+			{
+			"animatedTextureVar" "$basetexture"
+			"animatedTextureFrameNumVar" "$frame"
+			"animatedTextureFrameRate" "1"
+			}
+	}
+}

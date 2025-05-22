@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture" "cybertower/credits/danny"
+	"$nolod" 1
+	"$nodecal" 1
+}

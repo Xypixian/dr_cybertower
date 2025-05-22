@@ -1,0 +1,43 @@
+UnlitGeneric
+{
+	$basetexture "cybertower/overhaul/screenoverlays/specialhell"
+
+	$detail "cybertower/screenoverlays/glitch"
+	$detailscale 8
+
+	$alphatest 1
+
+	$scalvar "[2 3]"
+	$translvar "[0 0]"
+
+	Proxies
+	{
+		AnimatedTexture
+		{
+			animatedtexturevar "$basetexture"
+			animatedtextureframenumvar "$frame"
+			animatedtextureframerate 12
+		}
+
+		UniformNoise
+		{
+			minVal -0.01
+			maxVal 0.01
+			resultVar "$translVar[0]"
+		}
+
+		UniformNoise
+		{
+			minVal -0.01
+			maxVal 0.01
+			resultVar "$translVar[1]"
+		}
+
+		TextureTransform
+		{
+			scaleVar "$scalvar"
+			translateVar "$translvar"
+			resultVar "$basetexturetransform"
+		}
+	}
+}

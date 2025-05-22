@@ -1,0 +1,44 @@
+unlitgeneric
+{
+	$model 1 	$basetexture "cybertower/overhaul/redwallpattern01"
+
+	$centvar "[ 0.5 0.5 ]"
+	$rot2var -45
+	$rotvar 45
+	$scavar 4
+	$transformvar "[ 0 1 ]"
+
+	proxies
+	{
+		texturescroll
+		{
+			texturescrollvar "$transformvar"
+			texturescrollrate 0.5
+			texturescrollangle 130
+		}
+
+		texturetransform
+		{
+			translatevar "$transformvar"
+			rotatevar "$rotvar"
+			centervar "$centvar"
+			scalevar "$scavar"
+			resultvar "$basetexturetransform"
+		}
+
+		sine
+		{
+			sineperiod 3
+			sinemin 0.7
+			sinemax 0.9
+			resultvar "$color2"
+		}
+
+		animatedtexture
+		{
+			animatedtexturevar "$detail"
+			animatedtextureframenumvar "$detailframe"
+			animatedtextureframerate 8
+		}
+	}
+}

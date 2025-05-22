@@ -1,0 +1,39 @@
+UnlitGeneric
+{
+	$basetexture "cybertower/overhaul/minibosspattern3"
+
+	$sinevar 0
+	$transvar "[ 0 0 ]"
+
+	Proxies
+	{
+		LinearRamp
+		{
+			initialValue 0
+			rate 0.2
+			resultVar "$transvar[0]"
+		}
+
+		Sine
+		{
+			sineperiod 4
+			sinemin -0.5
+			sinemax 0.5
+			resultVar "$sinevar"
+		}
+
+		Clamp
+		{
+			min -0.25
+			max 0.25
+			srcVar1 "$sinevar"
+			resultVar "$transvar[1]"
+		}
+
+		TextureTransform
+		{
+			translateVar "$transvar"
+			resultVar "$basetexturetransform"
+		}
+	}
+}

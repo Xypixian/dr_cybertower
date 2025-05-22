@@ -1,0 +1,15 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models/props/cybertowerprops/sekretsomg/poltergust/Holder"
+	"$bumpmap" "models/effects/flat_normal"
+	"$halflambert" "1"
+	"$phong" "1"
+	"$diffuseexp" "1"
+	"$phongfresnelranges" "[1 2 1]"
+	"$phongboost" "0.15"
+	"$phongexponent" "6"
+	"$lightwarptexture" "models/player/pyro/pyro_lightwarp"
+	"$rimlight" "1"
+	"$rimlightexponent" "5"
+	"$rimlightboost" "0.25"
+}

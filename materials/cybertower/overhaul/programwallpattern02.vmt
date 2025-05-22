@@ -1,0 +1,22 @@
+UnlitGeneric
+{
+	$basetexture "cybertower/overhaul/programwallpattern01"
+
+	Proxies
+	{
+		TextureScroll
+		{
+			textureScrollRate 0.5
+			textureScrollAngle 90
+			textureScrollVar "$basetexturetransform"
+		}
+
+		Sine
+		{
+			sineperiod 2
+			sinemin 0.4
+			sinemax 0.7
+			resultVar "$color"
+		}
+	}
+}

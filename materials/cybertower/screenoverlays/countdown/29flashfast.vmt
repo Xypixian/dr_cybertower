@@ -1,0 +1,20 @@
+"UnlitGeneric"
+{
+	"$basetexture" "cybertower/screenoverlays/countdown/countdown"
+	"$frame" 29
+	"$color2" "[ 255 0 0 ]"
+	"$basetexturetransform" "center .5 .5 scale 4 4 rotate 0 translate 0 -1"
+	"$detail" "cybertower/screenoverlays/countdown/flashmask"
+	"$detailblendmode" 8
+	"$alphatest" 1
+	"$nolod" 1
+	"Proxies"
+	{
+		"AnimatedTexture"
+			{
+			"animatedTextureVar" "$detail"
+			"animatedTextureFrameNumVar" "$detailframe"
+			"animatedTextureFrameRate" "8"
+			}
+	}
+}

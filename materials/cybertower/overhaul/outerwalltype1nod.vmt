@@ -1,0 +1,23 @@
+UnlitGeneric
+{
+	$basetexture "cybertower/overhaul/outerwalltype1"
+
+	$color2 "[0.80 0.80 0.80]"
+
+	Proxies
+	{
+		TextureScroll
+		{
+			textureScrollVar "$detailtexturetransform"
+			textureScrollRate 0.2
+			textureScrollAngle 90
+		}
+		Sine
+		{
+			sinemin 0.6
+			sinemax 0.7
+			sineperiod 1.5
+			resultVar "$color2"
+		}
+	}
+}

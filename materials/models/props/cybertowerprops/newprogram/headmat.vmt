@@ -1,0 +1,16 @@
+VertexLitGeneric
+{
+	$basetexture "models/props/cybertowerprops/newprogram/headmat"
+	$bumpmap "dev/flat_normal"
+
+	$lightwarptexture "cybertower/overhaul/highcontrastlightwarp"
+
+	$phong 1
+	$phongfresnelranges "[0.5 0.75 1]"
+	$halflambert 1
+	$phongexponent 5
+
+	$rimlight 1
+	$rimlightexponent 5
+	$rimlightboost 1
+}

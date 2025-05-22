@@ -1,0 +1,14 @@
+UnlitGeneric
+{
+	$basetexture "cybertower/overhaul/signage/difficulty"
+
+	$additive 1
+
+	$basetexturetransform "center 0.475 0.6 scale 0.7 0.6 rotate 0 translate 0 0"
+
+	$nodecal 1
+
+	$color2 "[0.28 0.71 0]"
+
+	$frame 1
+}

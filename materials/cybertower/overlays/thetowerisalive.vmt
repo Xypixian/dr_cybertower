@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture" "cybertower/overlays/thetowerisalive"
+	"$nolod" 1
+	"$alphatest" 1
+}

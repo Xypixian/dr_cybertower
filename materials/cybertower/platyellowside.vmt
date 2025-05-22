@@ -1,0 +1,8 @@
+LightmappedGeneric
+{
+	$basetexture "cybertower/platyellowside"
+
+	$nolod 1
+
+	$color "[0.70 0.63 0.48]"
+}

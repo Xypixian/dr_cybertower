@@ -1,0 +1,15 @@
+"UnlitGeneric"
+{
+	"$basetexture" "cybertower/xza"
+	"$nodecal" 1
+	"$alphatest" 1
+                  "proxies"
+                  {
+                         "Animatedtexture"
+                                 {
+                                 "Animatedtexturevar" "$Basetexture"
+                                 "Animatedtextureframenumvar" "$frame"
+                                 "Animatedtextureframerate" "12"
+                                 }
+                   }
+}

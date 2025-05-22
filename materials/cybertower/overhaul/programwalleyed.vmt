@@ -1,0 +1,52 @@
+UnlitGeneric
+{
+	$basetexture "cybertower/overhaul/programwalleyed"
+
+	$alphatest 1
+
+	$color2 "[1 0 0.02]"
+
+	$allowalphatocoverage 1
+	$transvar "[0 0]"
+
+	Proxies
+	{
+		Sine
+		{
+			sineperiod 4
+			sinemin -0.1
+			sinemax 0.1
+			resultVar "$transvar[0]"
+		}
+
+		Sine
+		{
+			sineperiod 4
+			sinemin -0.1
+			sinemax 0.1
+			timeoffset 1
+			resultVar "$transvar[1]"
+		}
+
+		Sine
+		{
+			sineperiod 4
+			sinemin 0.7
+			sinemax 0.9
+			resultVar "$color"
+		}
+
+		TextureTransform
+		{
+			translateVar "$transvar"
+			resultVar "$basetexturetransform"
+		}
+
+		AnimatedTexture
+		{
+			animatedtexturevar "$basetexture"
+			animatedtextureframenumvar "$frame"
+			animatedtextureframerate 9
+		}
+	}
+}

@@ -1,0 +1,31 @@
+UnlitTwoTexture
+{
+	$basetexture "cybertower/overhaul/discowallcolorsclamp"
+	$texture2 "cybertower/overhaul/discowalltrim"
+
+	$rotvar 0
+
+	Proxies
+	{
+		LinearRamp
+		{
+			initialValue 0
+			rate 8
+			resultVar "$rotVar"
+		}
+
+		TextureTransform
+		{
+			rotateVar "$rotVar"
+			resultVar "$basetexturetransform"
+		}
+
+		Sine
+		{
+			sineperiod 4
+			sinemin 1.0
+			sinemax 2.0
+			resultVar "$color"
+		}
+	}
+}

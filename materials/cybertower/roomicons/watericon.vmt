@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture" "cybertower/roomIcons/waterIcon"
+	"$nolod" 1
+	"$nodecal" 1
+}

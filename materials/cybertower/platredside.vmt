@@ -1,0 +1,5 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "cybertower/platredside"
+	"$nolod" 1
+}

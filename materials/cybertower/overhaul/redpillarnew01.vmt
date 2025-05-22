@@ -1,0 +1,22 @@
+UnlitGeneric
+{
+	$basetexture "cybertower/overhaul/redpillarnew01"
+
+	Proxies
+	{
+		Sine
+		{
+			sineperiod 3
+			sinemin 0.8
+			sinemax 0.9
+			resultVar "$color"
+		}
+
+		TextureScroll
+		{
+			textureScrollRate 1.5
+			textureScrollAngle 90
+			textureScrollVar "$basetexturetransform"
+		}
+	}
+}

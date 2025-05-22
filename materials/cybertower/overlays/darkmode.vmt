@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture" "cybertower/overlays/darkmode"
+	"$nodecal" 1
+	"$nolod" 1
+}

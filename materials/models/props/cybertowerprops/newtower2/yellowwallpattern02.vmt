@@ -1,0 +1,38 @@
+unlitgeneric
+{
+	$model 1 	$basetexture "cybertower/overhaul/yellowwallpattern02"
+
+	$transvar "[0 0]"
+
+	proxies
+	{
+		linearramp
+		{
+			initialvalue 0.0
+			rate 0.05
+			resultvar "$transvar[1]"
+		}
+
+		sine
+		{
+			sineperiod 8
+			sinemin 0.95
+			sinemax 1.05
+			resultvar "$transvar[0]"
+		}
+
+		sine
+		{
+			sineperiod 4
+			sinemin 0.5
+			sinemax 0.7
+			resultvar "$color2"
+		}
+
+		texturetransform
+		{
+			translatevar "$transvar"
+			resultvar "$basetexturetransform"
+		}
+	}
+}

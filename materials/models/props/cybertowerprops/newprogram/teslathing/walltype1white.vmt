@@ -1,0 +1,14 @@
+"unlitgeneric"
+{
+	$model 1 	"$basetexture" "cybertower/walltype1white"
+	"$nolod" 1
+	    "proxies"
+		{
+			"texturescroll"
+			{
+				"texturescrollvar" "$basetexturetransform"
+				"texturescrollrate" 0.5
+				"texturescrollangle" 0
+			}
+		}
+}

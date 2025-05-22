@@ -1,0 +1,28 @@
+UnlitGeneric
+{
+	$basetexture "cybertower/trim/redrotation"
+
+	$color "[0.79 0.79 0.79]"
+
+	$angle 0
+	$center "[0.5 0.5]"
+	$translate "[0.0 0.0]"
+
+	Proxies
+	{
+		LinearRamp
+		{
+			rate 100
+			initialValue 0.0
+			resultVar "$angle"
+		}
+
+		TextureTransform
+		{
+			translateVar "$translate"
+			rotateVar "$angle"
+			centerVar "$center"
+			resultVar "$basetexturetransform"
+		}
+	}
+}

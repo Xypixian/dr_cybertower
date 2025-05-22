@@ -1,0 +1,30 @@
+UnlitGeneric
+{
+	$basetexture "cybertower/towerskybox/wirecurrent"
+
+	$nolod 1
+
+	$color2 "[0.32 1 0.35]"
+
+	$rotVar 90
+	$scaVar 0.1
+	$scrollVar "[ 0 0 ]"
+
+	Proxies
+	{
+		TextureScroll
+		{
+			texturescrollvar "$scrollvar"
+			texturescrollrate 1
+			texturescrollangle -90
+		}
+
+		TextureTransform
+		{
+			translateVar "$scrollVar"
+			rotateVar "$rotVar"
+			scaleVar "$scaVar"
+			resultVar "$basetexturetransform"
+		}
+	}
+}

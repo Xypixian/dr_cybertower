@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture" "cybertower/overlays/signage/pistonGuide"
+	"$nolod" 1
+	"$nodecal" "1"
+}

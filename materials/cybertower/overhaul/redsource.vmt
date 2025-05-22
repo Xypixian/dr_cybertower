@@ -1,0 +1,17 @@
+UnlitGeneric
+{
+	$basetexture "cybertower/overhaul/redsource"
+
+	$decal 1
+
+	Proxies
+	{
+		Sine
+		{
+			sineperiod 1
+			sinemin 0.6
+			sinemax 0.8
+			resultVar "$color2"
+		}
+	}
+}
